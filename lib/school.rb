@@ -33,7 +33,9 @@ class School
 
     def sort
       @roster.each do |grade,student|
-      student.each { |a,b| a <=> b }
+      student.each do |a,b|
+         a <=> b 
+       end
       end
 
 
