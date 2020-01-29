@@ -32,7 +32,7 @@ class School
     end
 
     def sort
-      @sorted_roster
+      # @sorted_roster
       @roster.each do |grade,student|
     grade =  student.each do |a,b|
          a <=> b
